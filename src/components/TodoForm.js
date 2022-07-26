@@ -1,6 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState} from 'react';
 
 function TodoForm(props) {
+  const [input, setInput] = useState('');
+
   const handleChange = e => {
     setInput(e.target.value);
   };
@@ -17,9 +19,8 @@ function TodoForm(props) {
 
   return (
     <form onSubmit={handleSubmit} className='todo-form'>
-          <input
+          <input type='text'
             placeholder='Update your item'
-            type='text'
             value={input}
             onChange={handleChange}
             name='text'
