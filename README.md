@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with TODO-LIST React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Todo-list project that has been created from scrach using react by create-react-app method. The project contains Javascript, HTML and CSS . The project is hooked to a db.json server to create a RESTful API for your backend and make both a GET and a POST request to the json server.
 
 ## Available Scripts
 
