@@ -1,6 +1,7 @@
 {
   "name": "react-todolist-app",
   "version": "0.1.0",
+  "homepage": "https://maclaine-kuria.github.io/react-todolist-app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -15,7 +16,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "homepage": "https://maclaine-kuria.github.io/react-todolist-app/",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
